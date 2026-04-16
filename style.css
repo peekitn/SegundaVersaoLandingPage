@@ -58,7 +58,9 @@ body {
   align-items: center;
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 0 20px;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 .hero h1 {
@@ -126,6 +128,10 @@ section {
 .sobre h2 {
   font-size: 40px;
   margin-bottom: 20px;
+}
+
+.sobre p{
+  text-align: justify;
 }
 
 /* BENEFÍCIOS */
@@ -314,6 +320,12 @@ section {
   padding: 12px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.contato button:hover{
+  background: white;
+  color: #c60c30;
+  transition: all 0.3s ease 0.2s;
 }
 
 /* RESPONSIVO */
